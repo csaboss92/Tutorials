@@ -8,13 +8,21 @@ import {AppComponent} from "./app.component";
 import {HeroService} from "./hero.service";
 
 @NgModule({
-  imports: [BrowserModule,
-    FormsModule],
-  declarations: [AppComponent,
+  imports: [
+    BrowserModule,
+    FormsModule
+  ],
+  declarations: [
+    AppComponent,
     HeroDetailComponent,
-    HeroesComponent],
-  bootstrap: [AppComponent],
-  providers: [HeroService]
+    HeroesComponent
+  ],
+  providers: [
+    HeroService
+  ],
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule {
 }
